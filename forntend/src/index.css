@@ -152,7 +152,7 @@ body {
   animation-delay: calc(var(--animation-order) * 0.1s);
 }
 
-@keyframes indicator-line {
+@keyframes indicator-line {na
   0% {
     height: 4px;
     transform: translateY(-0px);
