@@ -5,6 +5,8 @@ import About from './Component/About'
 import Navbar from './Component/Navbar'
 import Features from './Component/Features'
 import Story from './Component/Story'
+import ContactUs from './Component/ContactUs.jsx'
+import Foter from './Component/Foter.jsx'
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <About/>
       <Features/>
       <Story/>
+      <ContactUs/>
+      <Foter/>
     </main>
   )
 }
