@@ -84,14 +84,14 @@ const Features = () => {
 
         <div className=" grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
 
-         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+         <BentoTilt className="bento-tilt_2 row-span-1 md:col-span-1 md:row-span-2 border-hsla">
            <BentoCard src="videos/feature-2.mp4"
            title={<>zig<b>m</b>a</>}
              description="A cross-platform, open-source, and community-driven project that aims to create a decentralized and interoperable metaverse."
            
            />
          </BentoTilt>
-         <BentoTilt className="bento-tilt_2 row-span-1 md:col-span-1 ms-23 md:ms-0  ">
+         <BentoTilt className="bento-tilt_2 row-span-1 md:col-span-1 ms-23 md:ms-0  border-hsla ">
           
           <BentoCard src="videos/feature-3.mp4"
            title={<>N<b>e</b>xus</>}
@@ -100,7 +100,7 @@ const Features = () => {
            />
          </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0   ">
+          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0  w-full   ">
           
           <BentoCard src="videos/feature-4.mp4"
            title={<>az<b>u</b>l</>}
@@ -116,7 +116,7 @@ const Features = () => {
              scale-[5] self-end "/> 
           </div>
          </BentoTilt>
-       <BentoTilt className=" bento-tilt_2 ">
+       <BentoTilt className=" bento-tilt_2 border-hsla ">
         <video src="videos/feature-5.mp4"
         autoPlay loop muted
         className="size-full object-cover origin-center"/>
